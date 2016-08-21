@@ -1,0 +1,6 @@
+use_frameworks!
+target 'AlertViewSimple_Tests' do
+  pod 'AlertViewSimple', :path => '../'
+  
+  
+end
