@@ -22,7 +22,7 @@ pod "AlertViewSimple"
 
 ## Author
 
-Manuel Marcos Regalado, manuel@ribot.co.uk
+Manuel Marcos Regalado, manuel@manuelmarcos.es
 
 ## License
 

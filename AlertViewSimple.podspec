@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'AlertViewSimple'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of AlertViewSimple.'
+  s.summary          = 'Simple Alert View handler for self-dismissable alerts'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,15 +18,15 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+Simple Alert View handler for self-dismissable alerts. The perfect pod for showing error alerts in an easy way
+                        DESC
 
-  s.homepage         = 'https://github.com/<GITHUB_USERNAME>/AlertViewSimple'
+  s.homepage         = 'https://github.com/manuelmarcos/AlertViewSimple'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Manuel Marcos Regalado' => 'manuel@ribot.co.uk' }
-  s.source           = { :git => 'https://github.com/<GITHUB_USERNAME>/AlertViewSimple.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.author           = { 'Manuel Marcos Regalado' => 'manuel@manuelmarcos.es' }
+  s.source           = { :git => 'https://github.com/manuelmarcos/AlertViewSimple.git', :tag => s.version.to_s }
+  # s.social_media_url = 'https://twitter.com/manu_marcos'
 
   s.ios.deployment_target = '8.0'
 

@@ -1,0 +1,16 @@
+PODS:
+  - AlertViewSimple (0.1.0)
+
+DEPENDENCIES:
+  - AlertViewSimple (from `../`)
+
+EXTERNAL SOURCES:
+  AlertViewSimple:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AlertViewSimple: c1dff1eb622b374554a2ac8d3c7a4c1fda3bfe8c
+
+PODFILE CHECKSUM: a43b10ffbf904d0c4fb4e4e95d4501e81d10e702
+
+COCOAPODS: 1.0.1
