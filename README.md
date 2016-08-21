@@ -5,11 +5,20 @@
 [![License](https://img.shields.io/cocoapods/l/AlertViewSimple.svg?style=flat)](http://cocoapods.org/pods/AlertViewSimple)
 [![Platform](https://img.shields.io/cocoapods/p/AlertViewSimple.svg?style=flat)](http://cocoapods.org/pods/AlertViewSimple)
 
-## Example
+## Import
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+```swift
+import AlertViewSimple
+```
 
-## Requirements
+## Usage
+
+```swift
+// Show an Alert View with just on Action which will be self-dismissable
+AlertsUtils.showAlertWithOneAction("Alert View Title", message: "This is my Alert View message", actionTitle: "Alert View Action Title", actionFunction: ())
+// Show an Alert View with an error message
+AlertsUtils.showAlertWithErrorMessage("My Alert View Error Message")
+```
 
 ## Installation
 
